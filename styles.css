@@ -12,6 +12,7 @@ body {
   width: 500px;
   text-align: left;
   border-radius: 5px;
+  display: block;
 }
 
 h1 {
@@ -54,4 +55,40 @@ p {
   border: solid white 2px;
   background-color: #42d4f4;
   padding: 5px;
+}
+
+
+@media screen and (max-width: 537px) {
+  body {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  #description {
+    font-size: 15px;
+  }
+
+  #survey-form {
+    background-color: #f7f9f7;
+    width: 90%;
+    margin: auto;
+    display: block;
+  }
+
+  .radio {
+    display: block;
+    padding: 10px;
+    width: 90%;
+  }
+
+  #dropdown {
+    width: 90%;
+  }
+
+  .input-field {
+    width: 90%;
+  }
 }
